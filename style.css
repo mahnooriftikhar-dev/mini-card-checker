@@ -1,0 +1,85 @@
+/* Page background */
+
+body {
+    font-family: Arial, sans-serif;
+
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    background: linear-gradient(
+        135deg,
+        #311a86,
+        #3f315c
+    );
+}
+
+/* Labels */
+
+label {
+
+    margin-left: 6px;
+
+    color: #fdeeee;
+
+    font-size: 15px;
+}
+
+/* Radio + Checkbox spacing */
+
+input[type="radio"],
+input[type="checkbox"] {
+
+    margin-top: 8px;
+
+    cursor: pointer;
+}
+
+/* Button styling */
+
+button {
+
+    width: 18%;
+
+    padding: 12px;
+
+    border: none;
+
+    border-radius: 18px;
+
+    background-color: #7c1dca;
+
+    color: rgb(0, 0, 0);
+
+    font-size: 16px;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+    font-style: italic;
+     /* font-size: 20px; */
+   
+}
+
+/* Button hover */
+
+button:hover {
+
+    background-color: #8638b3;
+
+    transform: scale(1.03);
+}
+
+/* Result text */
+
+p {
+
+    margin-top: 10px;
+
+    font-weight: bold;
+
+    color: #e6dcdc;
+}
